@@ -18,3 +18,13 @@
 	
 # to chenge back to master
 	git checkout master
+
+# To mearge feature branch to develop
+git merge feature/new-feature-branch
+
+
+# To populate commit detail
+git show bb35602a5f12da7027d55bd1a1e1859de79b97f6
+
+# To push develop branch to server
+git push --set-upstream origin develop
