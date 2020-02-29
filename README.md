@@ -4,6 +4,16 @@
 # Git configuration globally 
 	git config --global user.name "your name"
 	git config --global user.email "youremail@domain.com" 
+# Git initialization
+	git init demo  : to initialize empty git repo locally inside demo folder
+	ls -al to list all file and folder inside repo
+
+# Git Local state
+	Three local state of git in local
+	1: Working Directory : it contains all files and folder of application
+	2: Staging Area : this is state where files are moved from working directory
+	3: Repository(.git folder) : It holds all commited data
+	4: Remote : This remote state itself contain above three state
 	
 
 # To list all branch
