@@ -1,3 +1,11 @@
+# To install Git 
+	go to git-scm.com > download  git and install it
+	
+# Git configuration globally 
+	git config --global user.name "your name"
+	git config --global user.email "youremail@domain.com" 
+	
+
 # To list all branch
 	git branch
 
