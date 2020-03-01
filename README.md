@@ -133,3 +133,6 @@
 
 	When you fetch, Git gathers any commits from the target branch that do not exist in your current branch and stores them in your 	local repository. However, it does not merge them with your current branch. This is particularly useful if you need to keep your 	repository up to date, but are working on something that might break if you update your files. To integrate the commits into your 	 master branch, you use merge.
 	
+# To show remote detail
+	git remote show origin
+
