@@ -125,9 +125,11 @@
 # To Push changes to github
 	git push origin master
 
-# Diff between FETCH AND PULL
+# Difference between FETCH AND PULL
+	Doing fetch and pull before any push is good practice. 
+	git pull does a git fetch followed by a git merge. A git pull is what you would do to bring a local branch up-to-date with its 		remote version, while also updating your other remote-tracking branches.
 	
-	
+	When you use pull, Git tries to automatically do your work for you. It is context sensitive, so Git will merge any pulled 		commits into the branch you are currently working in. pull automatically merges the commits without letting you review them 		first. If you don’t closely manage your branches, you may run into frequent conflicts.
 
-# test changes..
+	When you fetch, Git gathers any commits from the target branch that do not exist in your current branch and stores them in your 	local repository. However, it does not merge them with your current branch. This is particularly useful if you need to keep your 	repository up to date, but are working on something that might break if you update your files. To integrate the commits into your 	 master branch, you use merge.
 	
