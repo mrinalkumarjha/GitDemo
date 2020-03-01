@@ -20,7 +20,42 @@
 	
 # To Add file to Repository state from staging
 	 git commit -m 'adding new test1.txt'   : this will push file from staging to repository state
-	 
+
+# Repository And  Git folder
+	The actual git repo exists inside .git directory
+	 cd .git/  : To change directory to .git. this is special directory maintained by git internally.
+	 ls -al  : to display all list inside .git folder
+	 rm -rf .git : To remove git directory. after this .git will be removed
+	 git init . : To add .git folder again to maintain versioning. this will complete new.
+	 git add . : to add all file to git working area 
+
+# To check log like how much commit we have added
+	git log : it will list all commit that is part of this repository
+	git show (commit id)39da54c0029b4a8f98686e2c33326cc89e33d39a   : to show all details of commit
+
+# Now to commit modified file in single command without adding we use -am (add message) 
+	git commit -am "added some new command" : this will add and commit also
+	
+# To back out changes (the changes need to be removed after adding to stage)
+	git reset HEAD README.md   : This will remove file from stage area to working
+	git checkout -- README.md   : thihs will remove all changes and put file in last working state
+# To check config detail
+	git config --global --list   : it will show user details
+	
+# To Add Rename or DELETE file after commiting locally
+	git mv example.txt demo.txt  : it will rename example.txt to  demo.txt in repository locally. this is staged changes
+	to commit it agin we use commit a=commang git commit -m 'renaming file'
+	
+	git rm demo.txt  : to delete file , this will stage change. to complete change we need to commit
+	git commit -m 'deleting file'
+	
+	touch newfile.txt : add new file
+
+# Excluding unwanted files and folder from git repo
+	1: create .gitignore file  : touch .gitignore
+	2: write command per line to exclude
+	ex : *.log to exclude all file with log
+
 
 # To list all branch
 	git branch
@@ -34,11 +69,6 @@
 # To checkout develop branch : now master will be Switched to branch 'develop'
 	git checkout develop
 
-# Now to commit new data in single command without adding we use -am (add message)
-	git commit -am "added some new command"
-	
-# To check log like how much commit we have added
-	git log
 	
 # To switch branch
 	git checkout master : to get into master
