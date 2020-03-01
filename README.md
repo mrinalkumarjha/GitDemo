@@ -122,5 +122,9 @@
 	git clone https://github.com/mrinalkumarjha/GitDemo.git FolderNameToClone
 # To check repository of git
 	git remote -v
+# To Push changes to github
+	git push origin master
 
+# Diff between FETCH AND PULL
+	
 	
