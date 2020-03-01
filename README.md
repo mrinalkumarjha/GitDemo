@@ -56,6 +56,21 @@
 	2: write command per line to exclude
 	ex : *.log to exclude all file with log
 
+# Types of Merge
+	Fast-Forward : this is simple merging when there is no changes detected in master branch. It will simply apply all 
+	commit to master branch. we can disable this option if undesirble result expected.
+	
+	Automatic Merge: 
+	
+	Manual merge : This has to be done when git unable to do automatic merge. All conflict must be resolved 
+	before merging.
+# Markers (Pointer) : 
+	HEAD is most used pointer which point to last commit of current branch.
+	
+# Branching 
+	git checkout -b updates  : It will create new branch and switch to updates branch.
+	
+	
 
 # To list all branch
 	git branch
