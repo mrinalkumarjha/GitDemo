@@ -15,6 +15,12 @@
 	3: Repository(.git folder) : It holds all commited data
 	4: Remote : This remote state itself contain above three state
 	
+# To Push code from working dir to staging area
+	git add test.txt : this will push test.txt to staging state
+	
+# To Add file to Repository state from staging
+	 git commit -m 'adding new test1.txt'   : this will push file from staging to repository state
+	 
 
 # To list all branch
 	git branch
