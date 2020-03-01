@@ -34,8 +34,9 @@
 # To check log like how much commit we have added
 	git log
 	
-# to chenge back to master
-	git checkout master
+# To switch branch
+	git checkout master : to get into master
+	git checkout develop : to get into develop
 
 # To mearge feature branch to develop
 git merge feature/new-feature-branch
@@ -46,3 +47,9 @@ git show bb35602a5f12da7027d55bd1a1e1859de79b97f6
 
 # To push develop branch to server
 git push --set-upstream origin develop
+
+# delete branch locally
+git branch -d localBranchName
+
+# delete branch remotely
+git push origin --delete remoteBranchName
