@@ -83,6 +83,7 @@
 	git push origin --delete remoteBranchName
 
 # Conflict resolution
+	it happens when many people work on same file and change on same line. 
 
 # To list all branch
 	git branch
