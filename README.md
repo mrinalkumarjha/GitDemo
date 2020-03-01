@@ -79,9 +79,10 @@
 	// delete branch locally
 	git branch -d localBranchName
 
-	// delete branch remotely
+	// delete branch remotely-- adding this line to create conflict as same line is editing
 	git push origin --delete remoteBranchName
-	
+
+# Conflict resolution
 
 # To list all branch
 	git branch
