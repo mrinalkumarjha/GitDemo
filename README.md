@@ -119,6 +119,8 @@
 	git push origin --delete remoteBranchName
 
 # To clone remote git repository to local
-	git clone https://github.com/mrinalkumarjha/GitDemo.git
+	git clone https://github.com/mrinalkumarjha/GitDemo.git FolderNameToClone
+# To check repository of git
+	git remote -v
 
 	
