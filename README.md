@@ -70,6 +70,11 @@
 # Branching 
 	git checkout -b updates  : It will create new branch and switch to updates branch.
 	
+	To merge update branch to master first we need to switch to master branch then use command from master branch
+	
+	git merge updates  : to merge updates branch changes to master
+	
+	git branch -d updates  : to delete updates branch.
 	
 
 # To list all branch
