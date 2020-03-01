@@ -103,17 +103,22 @@
 	git checkout develop : to get into develop
 
 # To mearge feature branch to develop
-git merge feature/new-feature-branch
+	git merge feature/new-feature-branch
 
 
 # To populate commit detail
-git show bb35602a5f12da7027d55bd1a1e1859de79b97f6
+	git show bb35602a5f12da7027d55bd1a1e1859de79b97f6
 
 # To push develop branch to server
-git push --set-upstream origin develop
+	git push --set-upstream origin develop
 
 # delete branch locally
-git branch -d localBranchName
+	git branch -d localBranchName
 
 # delete branch remotely
-git push origin --delete remoteBranchName
+	git push origin --delete remoteBranchName
+
+# To clone remote git repository to local
+	git clone https://github.com/mrinalkumarjha/GitDemo.git
+
+	
