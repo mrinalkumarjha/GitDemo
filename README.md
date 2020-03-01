@@ -81,7 +81,8 @@
 
 	// delete branch remotely // master changes
 	git push origin --delete remoteBranchName
-	
+
+# Conflict resolution
 
 # To list all branch
 	git branch
