@@ -79,7 +79,7 @@
 	// delete branch locally
 	git branch -d localBranchName
 
-	// delete branch remotely
+	// delete branch remotely // master changes
 	git push origin --delete remoteBranchName
 	
 
