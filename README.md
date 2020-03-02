@@ -68,6 +68,13 @@
 	HEAD is most used pointer which point to last commit of current branch.
 	
 # Branching 
+	
+	Branches allow us to work on different version of same files in parellel. one branch can be independent from
+	other branches. we can later decide to merge changes to two branches. branches resolves seperation of version of 
+	same files. Head is pointer which point to branch latest branch.
+	ex we can have production branch, development branch, a branch to work on bug fixes.
+
+
 	git checkout -b updates  : It will create new branch and switch to updates branch.
 	
 	To merge update branch to master first we need to switch to master branch then use command from master branch
