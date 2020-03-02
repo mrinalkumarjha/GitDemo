@@ -1,4 +1,4 @@
-# To install Git 
+# To install Git test content from master
 	go to git-scm.com > download  git and install it
 	
 # Git configuration globally 
